@@ -3,7 +3,8 @@
     "allow": [
       "Read(//Users/asif/.claude/skills/gstack/**)",
       "Bash(./setup)",
-      "Bash(claude mcp *)"
+      "Bash(claude mcp *)",
+      "Bash(/Applications/Docker.app/Contents/Resources/bin/docker info *)"
     ]
   }
 }

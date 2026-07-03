@@ -21,6 +21,22 @@ services.AddMessaging(builder => ...);
 
 `Abstractions` · `Core` · `RabbitMq` · `Kafka` · `AzureServiceBus` · `Outbox.EfCore` · `Inbox.EfCore` · `Sagas` · `Sagas.EfCore` · `Sagas.Redis` · `OpenTelemetry` · `HealthChecks` · `SignalR` · `Aspire` · `Chaos` · `BuildingBlocks`
 
+## Architecture at a glance
+
+```mermaid
+flowchart LR
+    App["Your handlers<br/>(transport-agnostic)"] --> Core["Syed.Messaging.Core<br/>pipeline · retry · DLQ"]
+    Core --> R["RabbitMq"]
+    Core --> K["Kafka"]
+    Core --> A["AzureServiceBus"]
+    Core --- OB["Outbox / Inbox<br/>(EF Core)"]
+    Core --- SG["Sagas<br/>(EF Core / Redis)"]
+    Core --- OT["OpenTelemetry<br/>+ Prometheus"]
+    Core --- HC["HealthChecks<br/>+ KEDA scaling"]
+```
+
+**Dogfooded in production-style use:** the [Help or Yelp](help-or-yelp.md) microservices communicate exclusively through these packages — outbox, retry, and the SignalR bridge included. Library pain points get found by the library author.
+
 ## Why it's interesting engineering-wise
 
 - Designing a **transport abstraction that doesn't leak** is the hard part — delivery semantics, partitioning, and dead-lettering differ meaningfully across the three brokers

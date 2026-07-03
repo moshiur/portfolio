@@ -26,6 +26,14 @@ Client request creation (design mockup) and the real provider-onboarding wizard:
 
 ![Provider onboarding — service selection](../assets/rufio/onboarding-services.png)
 
+Two-sided review system with rating breakdown and double-blind "review pending" state:
+
+![Review system with rating breakdown](../assets/rufio/review-system.png)
+
+Provider identity verification (real app):
+
+![Identity verification step](../assets/rufio/onboarding-verify.png)
+
 Admin dashboard (design mockup):
 
 ![Admin dashboard](../assets/rufio/admin-dashboard.png)

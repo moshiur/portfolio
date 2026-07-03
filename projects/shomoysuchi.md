@@ -6,6 +6,10 @@
 
 ![ShomoySuchi principal dashboard](../assets/shomoysuchi/home.png)
 
+The AI timetable scheduler — Gemini or offline genetic solver, with school-specific constraints like the Zuhr prayer lock:
+
+![AI scheduler with constraint options](../assets/shomoysuchi/ai-scheduler.png)
+
 ## What it does
 
 School principals and administrators manage timetables, attendance, substitutions, and student records in one place — with Bangla localization and an exam-countdown workflow tuned to the SSC calendar.

@@ -12,3 +12,46 @@
 {"ts":"2026-07-03T07:28:32.861Z","cmd":"goto","args":"https://github.com/moshiur/portfolio/blob/main/projects/careops.md","origin":"https://github.com/moshiur/portfolio/blob/main/projects/careops.md","durationMs":1113,"status":"ok","hasCookies":false,"mode":"launched"}
 {"ts":"2026-07-03T07:28:34.471Z","cmd":"wait","args":"--networkidle","origin":"https://github.com/moshiur/portfolio/blob/main/projects/careops.md","durationMs":1566,"status":"ok","hasCookies":false,"mode":"launched"}
 {"ts":"2026-07-03T07:28:34.540Z","cmd":"js","args":"[...document.querySelectorAll('article img')].map(i=>({alt:i.alt.slice(0,30), ok:i.complete&&i.naturalWidth>0}))","origin":"https://github.com/moshiur/portfolio/blob/main/projects/careops.md","durationMs":1,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T11:00:16.040Z","cmd":"goto","args":"https://github.com/moshiur/portfolio/blob/main/projects/careops.md","origin":"https://github.com/moshiur/portfolio/blob/main/projects/careops.md","durationMs":1478,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T11:00:17.534Z","cmd":"wait","args":"--networkidle","origin":"https://github.com/moshiur/portfolio/blob/main/projects/careops.md","durationMs":1435,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T11:00:17.599Z","cmd":"js","args":"[...document.querySelectorAll('article img')].map(i=>({alt:i.alt.slice(0,45), ok:i.complete&&i.naturalWidth>0}))","origin":"https://github.com/moshiur/portfolio/blob/main/projects/careops.md","durationMs":2,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T11:05:45.502Z","cmd":"goto","args":"https://shomoysuchi-web.onrender.com/","origin":"https://shomoysuchi-web.onrender.com/","durationMs":1363,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T11:05:46.562Z","cmd":"wait","args":"--networkidle","origin":"https://shomoysuchi-web.onrender.com/","durationMs":985,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T11:05:46.657Z","cmd":"snapshot","args":"-i","origin":"https://shomoysuchi-web.onrender.com/","durationMs":30,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T11:07:01.336Z","cmd":"viewport","args":"1440x900","origin":"https://shomoysuchi-web.onrender.com/","durationMs":4,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T11:07:01.421Z","cmd":"click","args":"@e6","origin":"https://shomoysuchi-web.onrender.com/","durationMs":54,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T11:07:03.534Z","cmd":"screenshot","args":"--viewport /Users/asif/git/myportfolio/assets/shomoysuchi/master-timetable.png","origin":"https://shomoysuchi-web.onrender.com/","durationMs":33,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T11:07:03.586Z","cmd":"click","args":"@e9","origin":"https://shomoysuchi-web.onrender.com/","durationMs":23,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T11:07:05.697Z","cmd":"screenshot","args":"--viewport /Users/asif/git/myportfolio/assets/shomoysuchi/ai-scheduler.png","origin":"https://shomoysuchi-web.onrender.com/","durationMs":37,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T13:59:01.697Z","cmd":"goto","args":"http://localhost:15888/login?t=d4bd0c61fb079280bef7cbc8e67c2610","origin":"http://localhost:15888/","durationMs":137,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T13:59:02.173Z","cmd":"wait","args":"--networkidle","origin":"http://localhost:15888/","durationMs":444,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T13:59:06.260Z","cmd":"viewport","args":"1600x900","origin":"http://localhost:15888/","durationMs":1,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T13:59:06.319Z","cmd":"screenshot","args":"--viewport /Users/asif/git/myportfolio/assets/help-or-yelp/aspire-resources.png","origin":"http://localhost:15888/","durationMs":28,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T13:59:35.055Z","cmd":"url","args":"","origin":"http://localhost:15888/","durationMs":0,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T13:59:35.111Z","cmd":"goto","args":"http://localhost:15888","origin":"http://localhost:15888/","durationMs":26,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T13:59:43.192Z","cmd":"wait","args":"--networkidle","origin":"http://localhost:15888/","durationMs":0,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T13:59:43.226Z","cmd":"url","args":"","origin":"http://localhost:15888/","durationMs":1,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T13:59:43.255Z","cmd":"js","args":"document.body.innerText.slice(0,200)","origin":"http://localhost:15888/","durationMs":2,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T13:59:43.304Z","cmd":"screenshot","args":"--viewport /Users/asif/git/myportfolio/assets/help-or-yelp/aspire-resources.png","origin":"http://localhost:15888/","durationMs":22,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:00:19.844Z","cmd":"console","args":"--errors","origin":"http://localhost:15888/","durationMs":0,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:00:19.876Z","cmd":"js","args":"document.querySelector('html').outerHTML.slice(0,500)","origin":"http://localhost:15888/","durationMs":1,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:18:46.998Z","cmd":"viewport","args":"1440x900","origin":"http://localhost:15888/","durationMs":2,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:18:49.796Z","cmd":"goto","args":"http://localhost:3000","origin":"http://localhost:3000/en","durationMs":2764,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:19:01.877Z","cmd":"wait","args":"--networkidle","origin":"http://localhost:3000/en","durationMs":0,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:19:01.909Z","cmd":"url","args":"","origin":"http://localhost:3000/en","durationMs":0,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:19:01.988Z","cmd":"screenshot","args":"--viewport /Users/asif/git/myportfolio/assets/help-or-yelp/feed.png","origin":"http://localhost:3000/en","durationMs":50,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:23:02.939Z","cmd":"reload","args":"","origin":"http://localhost:3000/en","durationMs":98,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:23:11.026Z","cmd":"wait","args":"--networkidle","origin":"http://localhost:3000/en","durationMs":0,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:23:11.105Z","cmd":"screenshot","args":"--viewport /Users/asif/git/myportfolio/assets/help-or-yelp/feed.png","origin":"http://localhost:3000/en","durationMs":45,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:23:37.744Z","cmd":"network","args":"","origin":"http://localhost:3000/en","durationMs":1,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:23:37.802Z","cmd":"console","args":"--errors","origin":"http://localhost:3000/en","durationMs":0,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:24:44.801Z","cmd":"reload","args":"","origin":"http://localhost:3000/en","durationMs":41,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:24:54.888Z","cmd":"wait","args":"--networkidle","origin":"http://localhost:3000/en","durationMs":0,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:24:54.960Z","cmd":"screenshot","args":"--viewport /private/tmp/hoy-feed.png","origin":"http://localhost:3000/en","durationMs":40,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:26:34.365Z","cmd":"goto","args":"http://localhost:3000/en","origin":"http://localhost:3000/en","durationMs":40,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:26:40.456Z","cmd":"wait","args":"--networkidle","origin":"http://localhost:3000/en","durationMs":1,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:26:44.534Z","cmd":"js","args":"document.body.innerText.slice(0,150).replace(/\\n/g,' | ')","origin":"http://localhost:3000/en","durationMs":1,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:26:44.614Z","cmd":"screenshot","args":"--viewport /private/tmp/hoy-feed.png","origin":"http://localhost:3000/en","durationMs":46,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:27:36.397Z","cmd":"snapshot","args":"-i","origin":"http://localhost:3000/en","durationMs":71,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:27:48.537Z","cmd":"click","args":"@e5","origin":"http://localhost:3000/en","durationMs":121,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-07-03T14:27:51.644Z","cmd":"screenshot","args":"--viewport /private/tmp/hoy-dark.png","origin":"http://localhost:3000/en","durationMs":49,"status":"ok","hasCookies":false,"mode":"launched"}
