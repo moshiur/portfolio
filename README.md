@@ -1,6 +1,6 @@
 # Syed Moshiur Murshed — Project Portfolio
 
-**Full-stack engineer — .NET · C# · TypeScript · React · PostgreSQL · Azure**
+**Engineering Leader | Software Architect | Senior .NET Engineer | AI-Assisted Software Engineering**
 
 📫 [moshiur.m@gmail.com](mailto:moshiur.m@gmail.com) · [LinkedIn](https://www.linkedin.com/in/smurshed/) · [GitHub @moshiur](https://github.com/moshiur)
 
