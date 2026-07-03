@@ -13,6 +13,8 @@ Australian care providers must prove that a support worker was physically presen
 - ⚠️ **Exception handling** — policy violations surfaced for human review and resolution
 - 📊 **Timesheets** — automated calculation and payroll export
 - 🏢 **Multi-tenancy** — one deployment, many providers, strict data isolation
+- 👪 **Family portal** — clients and families see schedules, the care team, and visit history
+- 💰 **NDIS billing** — claims generation, price-guide import, funding periods
 
 ## Architecture
 
@@ -28,17 +30,21 @@ Australian care providers must prove that a support worker was physically presen
 
 The repo carries **36 Architecture Decision Records** plus product specs, compliance docs (GDPR/privacy), ops runbooks, and a maintained backlog — documentation is treated as part of the product.
 
-## Screenshots & design work
+## Screenshots
 
-Admin operations dashboard (design mockup):
+**Admin portal — operations dashboard** (live shift timeline, action center, payroll status, live operations map):
 
-![Admin operations dashboard](../assets/careops/admin-dashboard.png)
+![Admin portal operations dashboard](../assets/careops/admin-dashboard.png)
 
-Drag-and-drop roster management:
+**Admin portal — timesheets** with inline entry editing and automated labour-law compliance checks:
 
-![Roster management with drag-and-drop](../assets/careops/roster-dragdrop.png)
+![Timesheets with inline editing and compliance checks](../assets/careops/timesheets.png)
 
-Mobile worker app — geofenced clock-in (design mockup):
+**Family portal** — clients and their families see the care schedule, care team, and completed visits:
+
+![Family portal care schedule](../assets/careops/family-portal.png)
+
+**Mobile worker app** — geofenced clock-in (design mockup):
 
 ![Mobile clock-in with geofence](../assets/careops/mobile-clock-in.png)
 
@@ -46,7 +52,7 @@ Mobile worker app — geofenced clock-in (design mockup):
 
 - Real multi-tenant isolation decisions (per-tenant data partitioning, tenant-scoped auth claims) rather than a single-tenant demo
 - EVV is a compliance feature: the geofence, timestamps, and exception trail have to be defensible, not just functional
-- Three clients (mobile, admin web, API consumers) against one domain model
+- Four user surfaces — worker mobile app, admin web, family portal, and API consumers — against one domain model
 - 108 test files / ~700 test cases keep a 334K-line codebase refactorable
 
 [← Back to portfolio](../README.md)

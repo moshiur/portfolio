@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/asif/.claude/skills/gstack/**)",
+      "Bash(./setup)",
+      "Bash(claude mcp *)"
+    ]
+  }
+}
