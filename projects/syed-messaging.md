@@ -15,12 +15,16 @@ Every team ends up rebuilding that plumbing — or adopting a framework like Mas
 // You write a handler...
 public class OrderPlacedHandler : IMessageHandler<OrderPlaced>
 {
-    public Task HandleAsync(OrderPlaced msg, MessageContext ctx) => ...;
+    public Task HandleAsync(OrderPlaced message, MessageContext context, CancellationToken ct) => ...;
 }
 
 // ...and register everything in one fluent chain. Swapping RabbitMQ for
 // Kafka or Azure Service Bus is a config change — handlers don't change.
-services.AddMessaging(b => b.UseRabbitMq(...).AddHandlersFromAssembly(...));
+services.AddMessaging(m =>
+{
+    m.UseRabbitMq(r => r.ConnectionString = ...);
+    m.AddConsumer<OrderPlaced, OrderPlacedHandler>(c => c.Destination = "orders.placed");
+});
 ```
 
 What you get out of the box:
