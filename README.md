@@ -2,7 +2,7 @@
 
 **Full-stack engineer — .NET · C# · TypeScript · React · PostgreSQL · Azure**
 
-📫 [moshiur.m@gmail.com](mailto:moshiur.m@gmail.com) · [LinkedIn](LINKEDIN_URL_PLACEHOLDER) · [GitHub @moshiur](https://github.com/moshiur)
+📫 [moshiur.m@gmail.com](mailto:moshiur.m@gmail.com) · [LinkedIn](https://www.linkedin.com/in/smurshed/) · [GitHub @moshiur](https://github.com/moshiur)
 
 ---
 
