@@ -44,9 +44,13 @@ The repo carries **36 Architecture Decision Records** plus product specs, compli
 
 ![Family portal care schedule](../assets/careops/family-portal.png)
 
-**Mobile worker app** — geofenced clock-in (design mockup):
+**Mobile worker app (React Native / Expo)** — home, weekly availability editor, and profile, captured live from the iOS Simulator:
 
-![Mobile clock-in with geofence](../assets/careops/mobile-clock-in.png)
+<p>
+  <img src="../assets/careops/mobile-home.png" alt="Worker app home" width="230" />
+  <img src="../assets/careops/mobile-availability.png" alt="Weekly availability editor with time-range sliders" width="230" />
+  <img src="../assets/careops/mobile-profile.png" alt="Worker profile" width="230" />
+</p>
 
 ## Why it's interesting engineering-wise
 

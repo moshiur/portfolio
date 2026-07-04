@@ -4,7 +4,9 @@
       "Read(//Users/asif/.claude/skills/gstack/**)",
       "Bash(./setup)",
       "Bash(claude mcp *)",
-      "Bash(/Applications/Docker.app/Contents/Resources/bin/docker info *)"
+      "Bash(/Applications/Docker.app/Contents/Resources/bin/docker info *)",
+      "Bash(brew tap *)",
+      "Bash(brew install *)"
     ]
   }
 }
