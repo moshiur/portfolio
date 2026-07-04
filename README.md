@@ -1,16 +1,33 @@
-# Syed Moshiur Murshed — Project Portfolio
+# Syed Moshiur Murshed — Engineering Portfolio
 
 **Engineering Leader | Software Architect | Senior .NET Engineer | AI-Assisted Software Engineering**
+
+**15+ years building enterprise software, leading engineering teams, and exploring how AI transforms modern software development.**
 
 📫 [moshiur.m@gmail.com](mailto:moshiur.m@gmail.com) · [LinkedIn](https://www.linkedin.com/in/smurshed/) · [GitHub @moshiur](https://github.com/moshiur)
 
 ---
 
-I build production-grade SaaS platforms end to end — backend, web, mobile, infrastructure, and CI — and I do it in deep collaboration with AI coding agents. Over the last 12 months that workflow produced **6 substantial projects, ~1,160 commits, ~460,000 lines of code, and ~1,190 automated tests** — in my own time.
+I build production-grade SaaS platforms end to end — backend, web, mobile, infrastructure, and CI — using AI as a force multiplier throughout the software development lifecycle. Over the last 12 months that workflow produced **6 substantial projects, ~1,160 commits, ~460,000 lines of code, and ~1,190 automated tests** — in my own time.
 
 Most of these projects live in private repositories (they are real products with real ambitions), so this portfolio exists to show what's inside them. If you'd like a code walkthrough of any private repo, I'm happy to give one — just ask.
 
-> 🤖 **The AI story:** I openly use AI agents (Claude Code, Cursor, Antigravity, ChatGPT) as a force multiplier. My GitHub contributions went from **100 in all of 2025 to 1,532 in the first half of 2026**. How that works in practice — and what the AI does *not* do — is documented with real numbers in [**AI-COLLABORATION.md**](AI-COLLABORATION.md).
+## Engineering Leadership
+
+- Led international engineering teams across Austria and India
+- Former Head of Software Development
+- Hiring, mentoring and coaching engineers
+- Driving architecture, delivery and engineering quality
+- Building collaborative, high-trust engineering cultures
+
+## Current Focus
+
+- AI-first engineering and AI-assisted software development
+- Multi-agent systems
+- Distributed architectures
+- Building production-grade SaaS products
+
+> 🤖 **The AI story:** I use AI agents (Claude Code, Cursor, Antigravity, ChatGPT) as a standard part of my engineering practice. My GitHub contributions went from **100 in all of 2025 to 1,532 in the first half of 2026**. How that works in practice — and what the AI does *not* do — is documented with real numbers in [**AI-COLLABORATION.md**](AI-COLLABORATION.md).
 
 ---
 
