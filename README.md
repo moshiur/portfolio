@@ -4,7 +4,7 @@
 
 **15+ years building enterprise software, leading engineering teams, and exploring how AI transforms modern software development.**
 
-📫 [moshiur.m@gmail.com](mailto:moshiur.m@gmail.com) · [LinkedIn](https://www.linkedin.com/in/smurshed/) · [GitHub @moshiur](https://github.com/moshiur)
+📫 [moshiur.m@gmail.com](mailto:moshiur.m@gmail.com) · [LinkedIn](https://www.linkedin.com/in/smurshed/) · [GitHub @moshiur](https://github.com/moshiur) · 📄 [Resume (PDF)](assets/SyedMoshiurMurshed_CV.pdf)
 
 ---
 
