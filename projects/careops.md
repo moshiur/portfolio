@@ -44,12 +44,12 @@ The repo carries **36 Architecture Decision Records** plus product specs, compli
 
 ![Family portal care schedule](../assets/careops/family-portal.png)
 
-**Mobile worker app (React Native / Expo)** — home, weekly availability editor, and profile, captured live from the iOS Simulator:
+**Mobile worker app (React Native / Expo)** — the EVV core loop, captured live from the iOS Simulator: geofenced check-in (GPS verified "within 0m of location", client safety flags shown before the visit), the running shift timer, and the weekly availability editor:
 
 <p>
-  <img src="../assets/careops/mobile-home.png" alt="Worker app home" width="230" />
+  <img src="../assets/careops/mobile-clock-in.png" alt="Geofenced shift check-in with map and safety information" width="230" />
+  <img src="../assets/careops/mobile-shift-live.png" alt="Shift in progress with elapsed timer" width="230" />
   <img src="../assets/careops/mobile-availability.png" alt="Weekly availability editor with time-range sliders" width="230" />
-  <img src="../assets/careops/mobile-profile.png" alt="Worker profile" width="230" />
 </p>
 
 ## Why it's interesting engineering-wise
