@@ -1,16 +1,17 @@
 # Syed Moshiur Murshed — Engineering Portfolio
 
-**Engineering Leader | Software Architect | Senior .NET Engineer | AI-Assisted Software Engineering**
+**Engineering Leader | Software Architect | AI-First Software Engineering**
 
-**15+ years building enterprise software, leading engineering teams, and exploring how AI transforms modern software development.**
+**15+ years of experience building enterprise software, leading engineering teams, and exploring how AI is transforming modern software engineering.**
 
 📫 [moshiur.m@gmail.com](mailto:moshiur.m@gmail.com) · [LinkedIn](https://www.linkedin.com/in/smurshed/) · [GitHub @moshiur](https://github.com/moshiur) · 📄 [Resume (PDF)](assets/SyedMoshiurMurshed_CV.pdf)
 
 ---
-
 I build production-grade SaaS platforms end to end — backend, web, mobile, infrastructure, and CI — using AI as a force multiplier throughout the software development lifecycle. Over the last 12 months that workflow produced **6 substantial projects, ~1,160 commits, ~460,000 lines of code, and ~1,190 automated tests** — in my own time.
 
-Most of these projects live in private repositories (they are real products with real ambitions), so this portfolio exists to show what's inside them. If you'd like a code walkthrough of any private repo, I'm happy to give one — just ask.
+Several projects are intentionally private because they are commercial products under active development.
+
+This portfolio highlights their architecture, engineering decisions and technical approach. I'm happy to walk through any of them during an interview.
 
 ## Engineering Leadership
 
@@ -79,4 +80,10 @@ All numbers are measured from git history and public registries — the methodol
 
 ---
 
-<sub>This portfolio repo was itself assembled with Claude Code — screenshots curated from project docs, statistics mined from git history. Practicing what I preach.</sub>
+What You'll Find Here
+
+This portfolio showcases publicly available engineering work that reflects how I design software, lead engineering teams and apply AI in modern software development.
+
+Commercial work from previous employers is intentionally omitted due to confidentiality.
+
+<sub>This portfolio itself was assembled using the same AI-assisted engineering workflow described above.</sub>
