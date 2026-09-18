@@ -68,7 +68,7 @@ and the verified outcome. Detail available in an interview.
 | Engagement | What I did | Stack | Status |
 |---|---|---|---|
 | [**Consent-gated marketing tracking**](projects/professional/consent-gated-tracking.md) — real-estate agency website | Four marketing tags behind a consent platform, six conversion events, browser-automation test harness; found and fixed a consent-withdrawal data leak on production the same evening | Nuxt 4, TypeScript, Cookiebot, GA4 / Ads / Meta / OpenAI pixels, AWS Amplify | Live, Sept 2026 |
-| [**Guest self-check-in kiosk and back-office**](projects/professional/self-check-in-kiosk.md) — hospitality client | Unattended kiosk and mobile guest flows, legally-correct guest registration, national registration-provider integration, reception back office; diagnosed a provider-side integration failure with data | On request | In production, ongoing |
+| [**Guest self-check-in kiosk and back-office**](projects/professional/self-check-in-kiosk.md) — hospitality client | Unattended kiosk check-in plus a reception app, legally-correct guest registration filed with a national registration authority, single-use registration numbers under concurrency; diagnosed a provider-side failure with data | TypeScript, Vue 3 + Vite + Tailwind, Node serverless on AWS (Lambda, API Gateway, DynamoDB single-table, S3/CloudFront, Cognito, Parameter Store), TypeScript IaC, Vitest + Playwright | In production since Aug 2026 |
 | **Property valuation web app** — real-estate agency | Lead-capturing valuation flow with branded PDF report and CRM handover, consent-gated result | On request | In build |
 
 ---
