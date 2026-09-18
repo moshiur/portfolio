@@ -68,7 +68,7 @@ and the verified outcome. Detail available in an interview.
 | Engagement | What I did | Stack | Status |
 |---|---|---|---|
 | [**Consent-gated marketing tracking**](projects/professional/consent-gated-tracking.md) — real-estate agency website | Four marketing tags behind a consent platform, six conversion events, browser-automation test harness; found and fixed a consent-withdrawal data leak on production the same evening | Nuxt 4, TypeScript, Cookiebot, GA4 / Ads / Meta / OpenAI pixels, AWS Amplify | Live, Sept 2026 |
-| **Self-check-in kiosk and back-office** — hotel / guesthouse | Guest self-check-in flow and operations tooling, third-party tourism-registration interface, incident analysis with the provider, release and production support | On request | In production, ongoing |
+| [**Guest self-check-in kiosk and back-office**](projects/professional/self-check-in-kiosk.md) — hospitality client | Unattended kiosk and mobile guest flows, legally-correct guest registration, national registration-provider integration, reception back office; diagnosed a provider-side integration failure with data | On request | In production, ongoing |
 | **Property valuation web app** — real-estate agency | Lead-capturing valuation flow with branded PDF report and CRM handover, consent-gated result | On request | In build |
 
 ---
