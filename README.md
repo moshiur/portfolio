@@ -41,7 +41,10 @@ This portfolio highlights their architecture, engineering decisions and technica
 
 ---
 
-## Featured projects
+## Personal projects — built in my own time
+
+Six products designed and built outside working hours, to stay hands-on with architecture,
+delivery and AI-assisted engineering. Public repositories where the product allows it.
 
 | Project | What it is | Stack | Scale |
 |---|---|---|---|
@@ -56,7 +59,21 @@ Also public: [Syed.Messaging](https://github.com/moshiur/Syed.Messaging) · [OnC
 
 ---
 
-## By the numbers (July 2025 – July 2026)
+## Professional work — client and employer projects
+
+Delivered as an engineer at an Austrian software company, for its clients. Clients are not
+named and no client data appears here; what is described is the engineering, the decisions
+and the verified outcome. Detail available in an interview.
+
+| Engagement | What I did | Stack | Status |
+|---|---|---|---|
+| [**Consent-gated marketing tracking**](projects/professional/consent-gated-tracking.md) — real-estate agency website | Four marketing tags behind a consent platform, six conversion events, browser-automation test harness; found and fixed a consent-withdrawal data leak on production the same evening | Nuxt 4, TypeScript, Cookiebot, GA4 / Ads / Meta / OpenAI pixels, AWS Amplify | Live, Sept 2026 |
+| **Self-check-in kiosk and back-office** — hotel / guesthouse | Guest self-check-in flow and operations tooling, third-party tourism-registration interface, incident analysis with the provider, release and production support | On request | In production, ongoing |
+| **Property valuation web app** — real-estate agency | Lead-capturing valuation flow with branded PDF report and CRM handover, consent-gated result | On request | In build |
+
+---
+
+## By the numbers — personal projects (July 2025 – July 2026)
 
 | | |
 |---|---|
@@ -82,8 +99,12 @@ All numbers are measured from git history and public registries — the methodol
 
 What You'll Find Here
 
-This portfolio showcases publicly available engineering work that reflects how I design software, lead engineering teams and apply AI in modern software development.
+This portfolio has two halves. **Personal projects** are built in my own time, with public
+repositories where the product allows it — that is where the code, commits and tests can be
+inspected. **Professional work** is delivered for clients of my employer, so it is described
+without naming the client and without client data; the engineering, the decisions and the
+verified outcome are the point.
 
-Commercial work from previous employers is intentionally omitted due to confidentiality.
+Commercial work from earlier employers is omitted for confidentiality.
 
 <sub>This portfolio itself was assembled using the same AI-assisted engineering workflow described above.</sub>
